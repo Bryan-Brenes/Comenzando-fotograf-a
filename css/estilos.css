@@ -43,6 +43,8 @@ header h1{
 
 #menu a{
     color: white;
+    font-size: 1.5em;
+    margin-left: 1vw;
 }
 
 #menu :first-child{
@@ -51,11 +53,45 @@ header h1{
 
 #imagen-principal{
     background-color: #82c3a6;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     padding: 1vw;
 }
 
 #imagen-principal img{
     width: 60%;
+    box-shadow: 4px 4px 2px #02010a;
+}
+
+#imagenes-secundarias{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: #d5c75f;
+    padding: 1vw;
+}
+
+#imagenes-secundarias figure{
+    width: 50%;
+    text-align: center;
+}
+
+#imagenes-secundarias figure img{
+    width: 60%;
+    box-shadow: 4px 4px 2px #02010a;
+    transition: transform 0.5s;
+}
+
+#imagenes-secundarias figure a{
+    color: black;
+    font-size: 1.5em;
+}
+
+#imagen1 img:hover{
+    transform: rotate(10deg);
+}
+
+#imagen2 img:hover{
+    transform: translate(20px, -5px);
 }

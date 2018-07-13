@@ -24,7 +24,7 @@ header{
 }
 
 .contenedor{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -94,4 +94,33 @@ header h1{
 
 #imagen2 img:hover{
     transform: translate(20px, -5px);
+}
+
+footer{
+    margin: 0;
+    padding: 20px;
+    background-color: #C6d5c5;
+    color: black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .contenedor div{
+    width: 25%;
+}
+
+#iconos{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+#iconos a{
+    width: 25%;
+    font-size: 1.5em;
+    color: black;
 }

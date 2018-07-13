@@ -17,6 +17,8 @@ body{
 }
 
 
+
+
 header{
     color: white;
     background-color:  #5b7989;
@@ -56,6 +58,10 @@ header h1{
     max-width: 100%;
     text-align: center;
     padding: 1vw;
+}
+
+img{
+    box-shadow: 4px 4px 2px #02010a; 
 }
 
 #imagen-principal img{

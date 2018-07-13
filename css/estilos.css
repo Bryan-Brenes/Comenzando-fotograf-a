@@ -1,0 +1,50 @@
+.clearfix::before,
+.clearfix::after{
+    content: " ";
+    display: block;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    background-color: #02010a;
+}
+
+
+header{
+    color: white;
+    background-color:  #5b7989;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header h1{
+    margin: 0;
+    text-shadow: 2px 2px #02010a;
+    width: 50%;
+    float: left;
+}
+
+#menu{
+    float: right;
+    padding: 5px;
+    display: block;
+}
+
+#menu a{
+    color: white;
+}
+
+#menu :first-child{
+    text-decoration: none;
+}

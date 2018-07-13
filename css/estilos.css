@@ -48,3 +48,14 @@ header h1{
 #menu :first-child{
     text-decoration: none;
 }
+
+#imagen-principal{
+    background-color: #82c3a6;
+    width: 100%;
+    text-align: center;
+    padding: 1vw;
+}
+
+#imagen-principal img{
+    width: 60%;
+}
